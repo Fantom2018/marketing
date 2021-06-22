@@ -1,3 +1,8 @@
+ /*font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;*/
+
 body {
   min-height: height 100vh;
   font-family: 'Open Sans', sans-serif;
@@ -7,12 +12,7 @@ body {
   color: #373a39;
 }
 
-  /*font-family: 'Montserrat', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif;*/
-
-.header__top {
+ .header__top {
   padding: 0 10px;
   margin: 0 auto;
   background-color: rgb(253, 249, 249);
@@ -56,4 +56,4 @@ body {
 .menu__list-link:hover{
   border-bottom: 1pt solid #FCBB08;
 }
-
+/** header__content/
