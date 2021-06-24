@@ -12,6 +12,12 @@ body {
   color: #373a39;
 }
 
+.container{
+  max-width: 1190px;
+  padding: 0 10px;
+  margin: 0 auto;
+  display: block;
+}
 .title{
   font-family: Montserrat;
   Font-style: Bold;
@@ -151,4 +157,64 @@ body {
 .about__text p{
   max-width: 770px;
   margin-bottom: 16px;
+  }
+
+
+/* Expertise */
+
+.expertise{
+  padding-top: 20px;
+  height: 877px;
+  background-color: #fff;
+}
+
+.mmm{
+  font-size: 60px;
+}
+
+.expertise__scils{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1190px;
+  margin-top: 98px;
+  height: 137px;
+  }
+
+.scils__info{
+  width: 350px;
+  
+}
+
+.scils__info-item{
+  display: block;
+}
+
+.scils__info-item h4{
+  max-width: 100%; 
+}
+
+.meter{
+  width: 90%; 
+  align-items: center;
+  
+}
+.scils__text{
+  color: rgb(199, 29, 29);
+}
+
+.scils__text p{
+  max-width: 770px;
+  margin: 0 16px 0 0;  
+
+}
+
+.expertise__services{
+  height: 141px;
+  margin-top: 110px;
+  background-color: rgb(180, 180, 184);
+  display: flex;
+}
+
+.services__item{
+  w33
 }
