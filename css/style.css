@@ -211,10 +211,13 @@ body {
 .expertise__services{
   height: 141px;
   margin-top: 110px;
-  background-color: rgb(180, 180, 184);
+  background-color: rgb(69, 69, 136);
   display: flex;
+  justify-content: space-between;
 }
 
 .services__item{
-  w33
+  background-color: rgb(238, 205, 219);
+  width: 370px;
+  padding-left: 85px;
 }
