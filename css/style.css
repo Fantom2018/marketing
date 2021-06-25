@@ -10,6 +10,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #373a39;
+  
 }
 
 .container{
@@ -120,7 +121,7 @@ body {
   Font-size: 16sp;
   Line-height: 20sp;
   Line-height: 100%;
-  Align: Center;
+  align-items: Center;
   Vertical-align: Bottom;
   Letter-spacing: 2.74dp;
   color:  #FCBB08;
@@ -260,4 +261,67 @@ body {
 
 .expertise__item p{
   color: #777;  
+}
+
+    /* Vision */
+
+.vision{
+  /* background-color: #dbb3d3;  */
+  padding-bottom: 0;
+  max-width: 1440px;
+  margin:0 auto;
+  
+  
+
+}  
+
+.container-inner{
+  margin: 0;
+  padding: 0;
+  display: flex;
+ justify-content: space-between;
+  max-height: 840px;
+  
+    
+
+}
+
+.kart{
+  width: 686;
+  max-height: 840px;
+  margin: 0;
+  /* background-color: #FCBB08; */
+  background-color:  #efc557;
+  
+}
+.kart img {
+  /* display: block; */
+  max-height: 100%;
+  
+
+
+}
+
+
+.vision__text-inner{
+  max-width: 400px;
+  background-color: #08fc31;
+  max-width: 50%;
+}
+
+.vision__text-inner h2{
+  margin-bottom: 67px;
+}
+
+.vision__text-inner p{
+  margin-top: 25px;
+}
+
+/* portfolio */
+
+.portfolio{
+  height: 1440px;
+  max-width: 1190px;
+  background-color: #98b3b6;
+  margin:0 auto;
 }
