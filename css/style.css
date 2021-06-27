@@ -170,7 +170,9 @@ body {
 /* Expertise */
 
 .expertise{
-  padding-top: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 0 0;
   height: 877px;
   background-color: #fff;
 }
@@ -278,7 +280,7 @@ body {
     /* Vision */
 
 .vision{
- 
+ max-width: 1440px;
   padding-bottom: 0;
   /* max-width: 144px; */
   margin:0 auto;
@@ -324,10 +326,11 @@ body {
       /* portfolio */
 
  .portfolio{
-  height: 540px;
-  max-width: 1190px;
-  /* background-color: #e1f0f1; */
+  height: 2615px;
+  max-width: 1440px;
+  background-color: #d0ecee;
   margin:0 auto;
+  margin-bottom: 10px;
 } 
 
 .portfolio__nav{
@@ -348,6 +351,67 @@ body {
 .portfolio__title{
   margin-top: 139px;
 }
+
+
+.portfolio__show{
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1440px;
+  height: 1000px;
+  column-count: 4;  
+  column-gap: 22px;
+  background-color: rgb(218, 235, 146);
+}
+
+.portfolio__item img{
+  width: 100%;
+  height: auto;
+}
+
+.portfolio__show.portfolio__item img + .portfolio__item img{
+  margin-bottom: 20px;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+.projects{
+  margin: 0 auto;
+  height: 100px;
+  max-width: 1440px;
+  background-color: #f6f8fa;
+  position: relative;
+}
+
+/* .portfolio__show{
+  
+} */
+
+
+
+.portfolio__video{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---- End  Portfolio--- */
 
 /* Footer */
 
@@ -378,6 +442,7 @@ body {
     align-items: center;
     margin: 0 auto;
   }
+
 
 
 
